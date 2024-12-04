@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7155013775166231882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670087887334817869}
+  - component: {fileID: 8794382854806799250}
+  m_Layer: 0
+  m_Name: diceRoller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1670087887334817869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155013775166231882}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8491554, y: 0.008976171, z: -2.4782097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8794382854806799250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155013775166231882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1969c46ae1cd0cb8ddb190a88b1659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRandomForceValue: 400
+  startRollingForce: 250
+  diceSpawner: {fileID: 0}
+  rollDiceList:
+  - diceType: 4
+  valuesDices: 0
+  Reroll: 1
+  diceList:
+  - {fileID: 8276378169547985044, guid: 08b86648d54e7da4db5eed4575b6f97d, type: 3}
+  - {fileID: 6311104968353050157, guid: 0a06774d7e211ffec9e3460e9cf09fb8, type: 3}
+  - {fileID: 7348936318148957746, guid: 763e8ccd596d92fe0a35577df6079481, type: 3}
+  - {fileID: 139593541137310177, guid: 1727f08cb8fe5c38ba6735e054a3cce9, type: 3}
+  - {fileID: 7815621517203445421, guid: 254ababd01e7895278a14fdaf3abf27b, type: 3}
+  - {fileID: 8522265436828725510, guid: 47069344f5127439093285c4a0534f96, type: 3}
